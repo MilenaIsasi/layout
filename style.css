@@ -1,0 +1,99 @@
+
+h1 {
+    color: darkmagenta; /*cambia el color de h1*/
+    text-align: center;
+    border: 5px solid rgb(93, 2, 87);
+    background-color:rgb(226, 176, 213); /*color en el borde del fondo del titulo*/
+    border-style: dotted;
+}
+
+body {
+    font-family: helvetica, arial, sans-serif; /*cambia el tipo de lentra*/
+    background-color:rgb(91, 27, 90) /*color de la hoja*/
+}
+
+
+
+#tablero-izquierdo{
+    width: 25%; /*ancho 25% de la pantalla y p/ cualquier tipo de pantalla se aplica*/
+    position: absolute; 
+    height: 100%; /*altura*/ 
+    padding: 10px; /*espacio del lado interno*/
+    left: 0px; /*margen izquierdo*/
+    background-color:rgb(226, 176, 213);
+    opacity: 0.8
+}
+  
+#tablero-derecho {
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+}
+
+  /*para seleccionar una clase hay que comenzar con el .*/
+  
+.contenedor {
+    position: relative;
+    height: 6%;
+}
+  
+.contenedor2 {
+    position: relative;
+    height: 18%;
+    left: -10px;
+}
+  
+.reducido {
+    height: 4%;
+}
+  
+.componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 3;
+}
+  
+.producto {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    z-index: 2;
+}
+.layout {
+    height: 80%;
+    width: 45%;
+    border: 5px solid #ab05d9;
+    border-radius: 1rem;
+    position: absolute;
+    opacity: 0.2;
+    z-index: 1;
+    margin: auto;
+    left: 1px;
+    right: 0px;
+}
+  
+.rotulo {
+    width: 45%;
+    height: 5%;
+    background: #f705c2;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    border-radius: 5em 5rem 0px 0px;
+    text-align: center;
+    color: #fdfdfd;
+   
+    
+}
+  
+.titulo {
+    position: relative;
+    display: inline;
+    top: 0.5rem;
+}
