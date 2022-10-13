@@ -1,0 +1,126 @@
+
+h1 {
+    color: rgb(20, 73, 178); /*cambia el color de h1*/
+    text-align: center;
+    border: 5px solid rgb(117, 131, 183);
+    background-color:rgb(226, 176, 213); /*color en el borde del fondo del titulo*/
+    border-style: dashed solid;
+    font-style:oblique;
+    font-size: 52px;
+
+}
+marquee{
+    color:rgb(145, 57, 160);
+
+}
+    
+h2{
+    color: rgb(20, 73, 178); /*cambia el color de h1*/
+    text-align: center;
+    border: 5px solid rgb(117, 131, 183);
+    background-color:rgb(226, 176, 213); /*color en el borde del fondo del titulo*/
+    opacity: 0.7;
+    border-style: dashed solid;
+    font-style:oblique;
+    font-size: 40px;
+
+}
+
+body {
+    font-family: helvetica, arial, sans-serif; /*cambia el tipo de lentra*/
+    background-color:rgb(243, 239, 239) /*color de la hoja*/
+
+}
+
+
+/* SE PONE # AL COMIENZO CUANDO SE REFIERE A UN ID */
+
+#titulo2{
+    color: #f705c2;
+    border: 2px cornflowerblue;
+
+}
+
+#tablero-izquierdo{
+    width: 25%; /*ancho 25% de la pantalla y p/ cualquier tipo de pantalla se aplica*/
+    position: absolute; 
+    height: 100%; /*altura*/ 
+    padding: 10px; /*espacio del lado interno*/
+    left: 0px; /*margen izquierdo*/
+    background-color:rgb(226, 176, 213);
+    opacity: 0.8
+}
+  
+#tablero-derecho {
+    width: 25%; /*es el ancho, se usa % pq es relativo con el % de la pagina*/
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+}
+
+  /*para seleccionar una clase hay que comenzar con el .*/
+  
+.contenedor {
+    position: relative;
+    height: 6%;
+}
+  
+.contenedor2 {
+    position: relative;
+    height: 18%;
+    left: -10px;
+}
+  
+.reducido {
+    height: 4%;
+}
+  
+.componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 3;
+}
+  
+.producto {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    z-index: 2;
+}
+.layout {
+    height: 80%;
+    width: 45%;
+    border: 5px solid #847b91;
+    border-radius: 1rem;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2;
+    margin: auto;
+    left: 2px;
+    right: 0px;
+}
+  
+.rotulo {
+    width: 35%;
+    height: 4%;
+    background: #f705c2;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    border-style: dashed solid;
+    text-align: center;
+    color: #060606;
+   
+    
+}
+  
+.titulo {
+    position: relative;
+    display: inline;
+    top: 0.5rem;
+}
